@@ -19,7 +19,7 @@
 
 .logo {
     display: flex;
-    background-image: url("./amazon/stuff/leaves_plant_green_118405_2560x1440.jpg");
+    background-image: url(./stuff/leaves_plant_green_118405_2560x1440.jpg );
     background-size: cover;
     width: 60px;
     height: 60px;
@@ -216,7 +216,7 @@ ul a{
 
 }
 .logo2{
-    background-image: url('/stuff/Designer.png');
+    background-image: url('./stuff/Designer.png');
     background-size: cover;
     height: 80px;
     width: 83px;
