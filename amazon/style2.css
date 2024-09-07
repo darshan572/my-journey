@@ -1,0 +1,17 @@
+.head-1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-attachment: blue;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+.nav-bar{
+    margin: 0%;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}

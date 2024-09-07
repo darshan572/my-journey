@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    font-family: sofia;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+    background-image: url("/stuff/Designer.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    
+  
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+
+}
+/** box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.add-sec{
+    color: white;
+    font-size: 1rem;
+    margin-left: 15px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.Search-select{
+    background-color: #f3f3f3;
+    width: 50px ;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.nav-input{
+    width: 100%;
+    border: none;
+}
+.search-icon{
+    
+        width:45px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #7df05d;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+}
+.nav-signin{
+    font-size: 0.7rem; 
+    
+        
+}
+
+.span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700; 
+}
+
+.nav-cart{
+    font-weight: 700;
+    font-size: 1rem;
+`   display: flex;
+}
+.cart9{
+    margin-left: 2px;
+}
+.panel{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 125, 50);
+    height: 25px;
+    width: 100%;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{ 
+    height: 25px;
+    width: auto;
+    font-size: 10px;
+    font-weight: 700;
+    display: inline;
+    font-size: 0.85rem;
+    margin: 5px;
+    
+}
+.panel-ops{
+        width: 90%;
+        font-size: 0.85rem;
+        font-weight: 700;
+}
+.hero-adv{
+    display: flex;
+    align-items: center;
+    color: #fff8ab ;
+    font-size: larger;
+    font-style: italic;
+   font-weight: bold;
+   font-family: sofia;
+    height: 300px;
+    background-image: url(/stuff/leaves_plant_green_118405_2560x1440.jpg );
+   background-repeat: no-repeat;
+   background-size:100%;
+}
+.welcome{
+    height: 60px;
+    width: 70%;
+    
+}
+.box-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    
+}
+.box{
+    border: 1px solid black;
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px ;
+}
+.box-img{
+    height: 400px; 
+    background-size: cover;
+    border-radius: 4px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: aqua;
+}
+footer{
+    margin-top: 15px;
+}
+.footer-panel1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgb(198, 255, 240);
+    color: #1c0c6a;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.footer-panel2{
+    background-color: #7df05d;
+    color: white;
+    font-size: 25px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin: 20px;
+}
+ul a{
+    align-items: center;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    color: #dddddd;
+
+}
+.footer-panel3{
+    background-color: #7df05d;
+    display: flex;
+    border-top:0.5px solid white;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo2{
+    background-image: url('/stuff/Designer.png');
+    background-size: cover;
+    height: 80px;
+    width: 83px;
+
+}
+.footer-panel4{
+    height: 60px;
+    background-color: #c1ffd2;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.pages{
+    font-size: 0.85rem;
+}
+.copyright{
+    font-size: 0.85rem;
+}
