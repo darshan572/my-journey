@@ -19,7 +19,7 @@
 
 .logo {
     display: flex;
-    background-image: url("/stuff/Designer.png");
+    background-image: url("./stuff/Designer.png");
     background-size: cover;
     width: 60px;
     height: 60px;
