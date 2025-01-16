@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darshan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/lucide-icons/dist/umd/lucide.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="loading-bar-container">
+        <div class="loading-bar"></div>
+      </div>
+      <div class="loading-text">Be patience Loading...</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo fade-in">
+            <img src="1.svg" alt="logo" width="50px" />
+          </div>
+          <div class="nav-links">
+            <button class="nav-link active" data-section="home">Home</button>
+            <button class="nav-link" data-section="about">About</button>
+            <button class="nav-link" data-section="skills">Skills</button>
+            <button class="nav-link" data-section="projects">Projects</button>
+            <button class="nav-link" data-section="contact">Contact</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero fade-in">
+      <div class="container">
+        <h1 class="slide-up">
+          Hi, I'm <span class="gradient-text">Darshan</span>
+        </h1>
+        <p class="subtitle slide-up">
+          BTech Computer Science Student & Full-Stack Developer
+        </p>
+        <div id="btn" class="button-group slide-up">
+          <a
+            href="https://github.com/darshan572/my-journey"
+            target="_blank"
+            class="button"
+          >
+            <i data-lucide="github" style="color: beige"></i>
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/darshan-kumar-63ba23328/"
+            target="_blank"
+            class="button"
+            style="color: beige"
+          >
+            <i data-lucide="linkedin" style="color: beige"></i>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="bgimg">
+        <img src="/dkv2.0/me1.png" alt="mypic" width="650px" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="skills-section">
+      <div class="container">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="contact-card fade-in">
+          <p class="text-lg mb-6">
+            As a dedicated B.Tech student in Computer Science and Engineering
+            (CSE) at Quantum University,Roorkee, I am passionate about
+            harnessing technology to solve real-world problems and enhance human
+            experiences. My academic journey has equipped me with a robust
+            understanding of computer science fundamentals, coupled with
+            hands-on experience in various programming languages, software
+            development methodologies, and cutting-edge technologies.
+          </p>
+          <li>
+            <i data-lucide="graduation-cap"></i>
+            Bachelor's Degree in Computer Science & Engineering, 2028
+          </li>
+          <li>
+            Data Structures and Algorithms: Mastery in designing and analyzing
+            efficient algorithms, which are the backbone of software
+            development.
+          </li>
+          <li>
+            Operating Systems: In-depth knowledge of OS concepts, including
+            process management, memory management, and file systems.
+          </li>
+          <li>
+            Database Management Systems: Proficiency in designing, implementing,
+            and managing relational databases using SQL and NoSQL databases.
+          </li>
+          <div class="tech-stack">
+            <span class="tech-tag">Full-Stack Development</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Cloud Computing</span>
+            <span class="tech-tag">Blockchain</span>
+          </div>
+        </div>
+      </div>
+      <div class="resume-download">
+        <a href="resume.pdf" download class="download-btn">Download Resume</a>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title fade-in">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card fade-in">
+            <div class="skill-header">
+              <i data-lucide="code-2"></i>
+              <h3>Frontend Development</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i data-lucide="rocket"></i>React</li>
+              <li><i data-lucide="rocket"></i>Next.js</li>
+              <li><i data-lucide="rocket"></i>TypeScript</li>
+              <li><i data-lucide="rocket"></i>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-header">
+              <i data-lucide="server"></i>
+              <h3>Backend Development</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i data-lucide="rocket"></i>Node.js</li>
+              <li><i data-lucide="rocket"></i>Python</li>
+              <li><i data-lucide="rocket"></i>Java</li>
+              <li><i data-lucide="rocket"></i>MongoDB</li>
+            </ul>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-header">
+              <i data-lucide="terminal"></i>
+              <h3>DevOps & Cloud</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i data-lucide="rocket"></i>Docker</li>
+              <li><i data-lucide="rocket"></i>AWS</li>
+              <li><i data-lucide="rocket"></i>CI/CD</li>
+              <li><i data-lucide="rocket"></i>Linux</li>
+            </ul>
+          </div>
+          <div class="skill-card fade-in">
+            <div class="skill-header">
+              <i data-lucide="brain"></i>
+              <h3>AI & ML</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i data-lucide="rocket"></i>TensorFlow</li>
+              <li><i data-lucide="rocket"></i>PyTorch</li>
+              <li><i data-lucide="rocket"></i>OpenCV</li>
+              <li><i data-lucide="rocket"></i>NLP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title fade-in">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop&q=60"
+              alt="AI Chatbot"
+            />
+            <div class="project-content">
+              <h3>AI Chatbot Assistant</h3>
+              <p>
+                An intelligent chatbot powered by machine learning, capable of
+                natural language understanding and contextual responses.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">Flask</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1558002038-1055907df827?w=800&auto=format&fit=crop&q=60"
+              alt="Smart Home"
+            />
+            <div class="project-content">
+              <h3>Smart Home Automation</h3>
+              <p>
+                IoT-based home automation system with mobile app control and
+                energy monitoring.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">React Native</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">MQTT</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&auto=format&fit=crop&q=60"
+              alt="Blockchain"
+            />
+            <div class="project-content">
+              <h3>Blockchain Voting System</h3>
+              <p>
+                Secure and transparent e-voting system built on Ethereum
+                blockchain.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">Web3.js</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Truffle</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=60"
+              alt="E-Learning Platform"
+            />
+            <div class="project-content">
+              <h3>E-Learning Platform</h3>
+              <p>
+                A comprehensive online learning platform with interactive
+                courses and real-time progress tracking.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">AWS</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60"
+              alt="Data Analytics Dashboard"
+            />
+            <div class="project-content">
+              <h3>Data Analytics Dashboard</h3>
+              <p>
+                Real-time analytics dashboard for business intelligence with
+                interactive visualizations.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">D3.js</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Redis</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=60"
+              alt="Cybersecurity Tool"
+            />
+            <div class="project-content">
+              <h3>Cybersecurity Analysis Tool</h3>
+              <p>
+                Advanced security analysis tool for network traffic monitoring
+                and threat detection.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Elasticsearch</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 id="foot" class="section-title fade-in">Get in Touch</h2>
+        <div class="contact-container">
+          <div class="contact-card fade-in">
+            <h3>Contact Form</h3>
+            <p>Feel free to reach out for collaborations or just to say hi!</p>
+            <form id="contact-form" class="contact-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" class="button">
+                <i data-lucide="mail"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="foot12">
+        <p>© 2024 Darshan. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
